@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href=".//bootstrap.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Films finder</title>
+</head>
+<body>
+  <header class="">
+      <h1 class="header text-center bg-danger text-light">Welcome to Netflix website</h1>
+  </header>    
+
+
+  <main class="movie">
+    <div class="">
+     <div class="wrapper">
+
+      <div class="left">
+       <div class="left-wrapper position-fixed">
+        <h2 class="text-center">Bookmarked movies</h2>
+        <div class="marked-list__wrapper">
+          <ul class="bookmarked-list list-unstyled">
+
+          </ul>
+        </div>
+       </div>
+      </div>
+
+      <div class="right">
+        <p class="movie__result">Search Results: <span class="movie__result-num"></span></p>
+
+        <!--start of form for select options -->
+        <form class="form-filter">
+          <select class="select" name="movies">
+            <option value="all">All</option>
+        
+          </select>
+        
+          <button class="search">Search</button>
+        </form>
+        <!--end of form for select options -->
+        
+              <ul class="movie__list d-flex flex-wrap justify-content-between m-0 p-0">
+                
+              </ul>
+      </div>
+     </div>
+    </div>
+  </main>
+
+  
+  <footer class="container"></footer>
+
+
+    <script src="./js/films.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
