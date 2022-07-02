@@ -41,6 +41,7 @@ justify-content: space-between;
     font-size: 40px;
     text-align: center;
     background-color: rgb(38, 5, 81);
+    vertical-align: middle;
 }
 .form-filter{
     vertical-align: middle;
@@ -48,6 +49,7 @@ justify-content: space-between;
     margin-bottom: 20px;
 }
 .select{
+    margin-left: 10px;
     width: 200px;
     height: 34px;
     font-size: 22px;
@@ -63,4 +65,41 @@ justify-content: space-between;
     border-radius: 8px;
     font-size: 20px;
     color: bisque;
+}
+.night , .day{
+    margin-left: 10px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: 20px;
+    height: 20px;
+    border: none;
+    padding-bottom: 30px;
+}
+.night{
+    background-color: rgb(23, 26, 38);
+    color: white;
+}
+.day{
+   background-color: rgb(200, 191, 191);
+   color: black;
+}
+.body-wrapper{
+    background-color: black;
+}
+.body-list{
+    background-color: black;
+}
+.description{
+    padding: 10px;
+    top: 300px;
+    position: absolute;
+    transform: translateY(115%);  
+    background-color: gray;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    transition: 2s;
+}
+.item-for:hover .description{
+    transform: translateY(1%);
 }
